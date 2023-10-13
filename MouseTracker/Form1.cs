@@ -24,11 +24,9 @@ namespace MouseTracker
             {
                 int x = MousePosition.X;
                 int y = MousePosition.Y;
-                Console.Write(y);
 
                 mousePointerValueX.Text = x.ToString();
                 mousePointerValueY.Text = y.ToString();
-
             }
         }
     }
